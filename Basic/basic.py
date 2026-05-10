@@ -26,3 +26,12 @@ A = "Saimon"
 # A will not overwrite a
 print( a , A)
 
+# Global Variable
+
+name = "Saimon"
+surname = "Giri"
+
+def introduction():
+    print("Hi, I am "+name+" "+surname+".")
+
+introduction()
