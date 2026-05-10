@@ -50,3 +50,19 @@ if x>=y: # greater than and equal
     print(" X is greater or equal to y")
 if x<=y: # less than or equal
     print("y is less than or equal to x")
+
+
+# Logical Operator
+
+if x< 5 and y>10 : # return true if both conditions are satisfied
+    print(" x is less than 5 and y is greater than 10")
+
+if x<5 or y>10: # return true if one of the condition is satisfied
+    print("true")
+else:
+    print("false")
+
+if not(x<5 and y>10): # reverse the result
+    print("true")
+else:
+    print("False")
