@@ -66,3 +66,8 @@ if not(x<5 and y>10): # reverse the result
     print("true")
 else:
     print("False")
+
+
+# Remaining 
+# 1. Bitwise
+# 2.Membership
