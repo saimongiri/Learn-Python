@@ -94,3 +94,25 @@ print(mylist)
 mylist.reverse()
 print(mylist)
 
+# Tuple 
+
+mytuple = ('apple' , 'banana ' , 'cherry')
+print(mytuple)
+
+print(len(mytuple))
+
+print(type(mytuple))
+
+# most of the operation of same to list
+#Just unmutable value
+
+
+# Set
+set = {'Saimon','Samit','Samir'}
+ # remaining operations are mostly same as list
+
+
+dictionary = {"name" : "saimon",
+              "College ": "Nec" ,
+              "CRN" : 23361 
+ }
