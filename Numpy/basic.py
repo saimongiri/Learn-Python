@@ -149,3 +149,17 @@ print(narr)
 n1arr = np.array_split(arr2,4)
 print(n1arr)
 
+# Searching
+
+s = np.where(arr ==4)
+print(s)
+
+# Search Sorted
+
+ss = np.searchsorted(arr,5)
+print(ss)
+
+# Search from right side
+
+ssr = np.searchsorted(arr,5, side='right')
+print(ssr)
