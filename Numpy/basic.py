@@ -138,3 +138,14 @@ print(s2_arr)
 
 d_arr = np.dstack((y,arr))
 print(d_arr)
+
+# Splitting arrays
+
+narr = np.array_split(arr,4)
+print(narr)
+
+# 2D
+
+n1arr = np.array_split(arr2,4)
+print(n1arr)
+
