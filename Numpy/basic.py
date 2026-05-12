@@ -163,3 +163,23 @@ print(ss)
 
 ssr = np.searchsorted(arr,5, side='right')
 print(ssr)
+
+unsorted = np.array([1,4,2,5,6,3])
+
+# Sorting
+print(np.sort(unsorted))
+
+# Filtering
+
+# Creating an empty list
+filter_arr = []
+
+for element in unsorted:
+    if element % 2 ==0 :
+        filter_arr.append(True)
+    else:
+        filter_arr.append(False)
+
+newarray = arr[filter_arr]
+print(filter_arr)
+print(newarray)
