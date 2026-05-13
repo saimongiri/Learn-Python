@@ -81,3 +81,14 @@ plt.show()
 
 x = random.multinomial(n= 6 ,pvals=[1/6,1/6,1/6,1/6,1/6,1/6] )
 print(x)
+
+# Exponential Distribution
+# is used for describing time till next event eg : success / failure etc
+# has 2 parameter : scale- inverse rate defaults to 1.0
+# size
+
+x = random.exponential(scale=2,size=(2,3))
+print(x)
+
+sns.displot(random.exponential(size=1000),kind="kde")
+plt.show()
