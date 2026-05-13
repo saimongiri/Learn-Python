@@ -23,3 +23,17 @@ print(x)
 
 sns.displot(random.normal(size=1000),kind="kde")
 plt.show()
+
+# Binomial Distribution - Discrete Distribution
+# It has 3 parameter :
+# n - number of trials
+# p - probability of occurance of each trial
+#  size - the shape of returned array
+
+x = random.binomial(n=10 , p=0.5 , size=10)
+print(x)
+
+# Visualization of Binomial Distribution
+
+sns.displot(x)
+plt.show()
