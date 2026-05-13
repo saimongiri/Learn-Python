@@ -48,3 +48,16 @@ print(x)
 
 sns.displot(random.poisson(lam=5 , size=1000))
 plt.show()
+
+# Uniform Distribution
+# used to describe probability where every event has equal chances of occuring
+
+# low - lower bound default 0.0
+# high - higher bound default 1.0
+# size - the shape of returned array
+
+x = random.uniform(size=(2,3))
+print(x)
+
+sns.displot(random.uniform(size=1000),kind="kde")
+plt.show()
