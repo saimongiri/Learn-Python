@@ -61,3 +61,13 @@ print(x)
 
 sns.displot(random.uniform(size=1000),kind="kde")
 plt.show()
+
+# Logistic Distribution
+# used to describe growth
+# has parameter : loc,scale and size (already explained)
+
+x = random.logistic(loc=1 , scale=2 ,size=10)
+print(x)
+
+sns.displot(random.logistic(loc=5 , scale=10, size=1000))
+plt.show()
