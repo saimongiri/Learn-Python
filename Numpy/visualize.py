@@ -92,3 +92,15 @@ print(x)
 
 sns.displot(random.exponential(size=1000),kind="kde")
 plt.show()
+
+# Chi square Distribution
+# used as a basis to verify the hypothesis
+
+# has 2 parameter: df- degree of freedom
+# size
+
+x = random.chisquare(df=2 ,size=(2,3))
+print(x)
+
+sns.displot(random.chisquare(df=1,size=1000),kind="kde")
+plt.show()
