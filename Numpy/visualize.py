@@ -37,3 +37,14 @@ print(x)
 
 sns.displot(x)
 plt.show()
+
+# Poisson Distribution 
+
+# lam - rate or known number of occurances 
+# size - the size of returned array
+
+x = random.poisson(lam=4 , size=10)
+print(x)
+
+sns.displot(random.poisson(lam=5 , size=1000))
+plt.show()
