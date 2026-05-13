@@ -71,3 +71,13 @@ print(x)
 
 sns.displot(random.logistic(loc=5 , scale=10, size=1000))
 plt.show()
+
+# Multinomial Distribution
+# is generalization of binomial distribution
+# has 3 parameter
+# n - number of times to run the experiment
+# pvals - list of probabilites of outcomes
+# size - the shape of the returned array
+
+x = random.multinomial(n= 6 ,pvals=[1/6,1/6,1/6,1/6,1/6,1/6] )
+print(x)
