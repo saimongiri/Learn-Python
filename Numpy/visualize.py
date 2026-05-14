@@ -127,3 +127,15 @@ print(x)
 
 sns.displot(random.pareto(a=3 , size=1000))
 plt.show()
+
+#  Zipf Distribution
+# parameter a - distribution parameter and size
+
+x = random.zipf(a=2, size=(2,3))
+print(x)
+
+#Visualize
+
+sns.displot(x[x<10])
+plt.show()
+
