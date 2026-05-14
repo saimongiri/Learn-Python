@@ -115,4 +115,15 @@ print(x)
 # visualized
 
 sns.displot(random.rayleigh(size=1000),kind="kde")
-plt.show
+plt.show()
+
+# Pareto Distribution - (20% factors and 80% outcome)
+# parameter - a -shape parameter and size
+
+x= random.pareto(a=2,size=(2,3))
+print(x)
+
+# Visualized
+
+sns.displot(random.pareto(a=3 , size=1000))
+plt.show()
